@@ -9,4 +9,6 @@ Nesta fase, os objetivos são:
 - Aprender os fundamentos do Terraform e como ele pode ser utilizado para provisionar e gerenciar recursos na nuvem.
 - Consolidar o aprendizado através de um projeto prático, onde você criará uma infraestrutura completa com o Terraform, integrando banco de dados, pipelines de dados e orquestração.
 
-A automação e gestão eficiente de infraestrutura são habilidades essenciais para um(a) engenheiro(a) de dados, e você estará um passo mais próximo de dominar essas práticas. Vamos começar?
+A automação e gestão eficiente de infraestrutura são habilidades essenciais para um(a) engenheiro(a) de dados, e você estará um passo mais próximo de dominar essas práticas.
+
+Vamos começar?

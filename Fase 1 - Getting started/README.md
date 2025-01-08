@@ -11,4 +11,4 @@ Nesta fase inicial, nosso objetivo é que você:
 
 Ao final desta fase, você estará preparado para criar seu primeiro projeto do zero utilizando a Cloud, integrando teoria e prática para consolidar o aprendizado.
 
-Estamos muito empolgados por acompanhar você nessa jornada e mal podemos esperar para ver o que você irá conquistar. Vamos começar?
+Vamos começar?
