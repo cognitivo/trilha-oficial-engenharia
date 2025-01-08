@@ -44,16 +44,15 @@ Esta trilha está organizada em **fases**, e cada uma aborda um conjunto de conc
 ---
 
 ## **Como realizar os projetos práticos**
-1. **Amazon Web Services (AWS) de desenvolvimento da Cognitivo**
-    - Tudo que é criado na Cloud geraa custos em dólar (embora alguns recursos possuam free-tiers), portanto, não crie nada em sua conta pessoal da AWS. Nós da Cognitivo contamos com uma conta especial de desenvolvimento, onde você deve subir seus recursos e realizar seus projetos da trilha.
+1. **Amazon Web Services (AWS) e ambiente de DEV da Cognitivo**
+    - Tudo que é criado na Cloud gera custos em dólar (embora alguns recursos possuam free-tiers), portanto, não crie nada em sua conta pessoal da AWS. Nós da Cognitivo contamos com uma conta especial de desenvolvimento, onde você deve subir seus recursos e realizar seus projetos da trilha.
     - Para obter acesso a esta conta comunique no canal oficial da Engenharia que abriremos um chamado para o time de infraestrutura providenciar os acessos para você.
 
 2. **Seu repositório individual no Github para a trilha**
     - Após criar sua conta no GitHub (associada à Cognitivo), ajudaremos você a configurar um repositório específico para armazenar seus projetos da trilha.
     - Com o repositório criado:
-        - Clone o repositório para sua máquina local.  
-        - Crie uma nova branch chamada **`develop`** para realizar o trabalho.  
-        - Ao finalizar um projeto, abra uma **Pull Request (PR)** para revisão. 
+        - Clone o repo para sua máquina local.  
+        - Crie uma nova branch chamada **`develop`** para realizar o trabalho. Tudo que fizer em código deve ser nessa branch.  
 
 3. **Como Estruturar os Projetos no Repositório**:
     - Para cada projeto prático, crie uma pasta com o nome do projeto.  
@@ -64,7 +63,11 @@ Esta trilha está organizada em **fases**, e cada uma aborda um conjunto de conc
     - Adicione **prints de telas**, **logs de execução** e **informações relevantes** para facilitar a revisão do código.
     - A revisão determinará se o projeto atendeu às expectativas. Quando aprovado, o merge será realizado na branch `main`.
 
-5. **Guia de desenvolvimento**>
+6. **Como saber se devo progredir nos módulos?**:
+    - A ideia aqui é que ao finalizar cada projeto, você já siga para o estudo teórico do próximo módulo enquanto o desafio finalizado fica em revisão.
+    - Não se apresse em finalizar todos os projetos, o mais importante aqui é que você construa uma forte base em fundamentos e massa crítica para resolver problemas.
+
+7. **Guia de desenvolvimento**
     - A Cognitivo conta com um [guia de desenvolvimento](https://docs.google.com/document/d/1PSEU69_Up9QzNAfO7sw3FGzqXMhFyYMqwXSeK_AFzDI/edit?usp=sharing). Nesse momento, se atente principalmente ao padrão de commits, consulte o guia para realizar os seus e já se acostumar com certa padronização.
 
 ---
