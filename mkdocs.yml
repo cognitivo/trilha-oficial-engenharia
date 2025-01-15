@@ -1,0 +1,56 @@
+site_name: 'Trilha de Engenharia - Cognitivo.ai'
+site_description: 'Trilha Oficial de Engenharia'
+site_author: 'Cognitivo.ai'
+theme:
+  name: 'material'
+  logo: 'image/logo_cog.png'
+  palette:
+    primary: 'white'
+  favicon: 'image/icon_cog.png'
+
+  features:
+    - navigation.tabs
+
+nav:
+  - Visão Geral: index.md
+  - 1ª Fase: 
+    - 'Getting started': Fase 1 - Getting started/README.md
+    - '1.1 Engenharia de Dados': Fase 1 - Getting started/1.1 Engenharia de Dados.md
+    - '1.2 Cloud': Fase 1 - Getting started/1.2 Cloud.md
+    - '1.3 Amazon Web Services': Fase 1 - Getting started/1.3 Amazon Web Services (AWS).md
+    - '1.4 Hands-on: Projeto 1': 'Fase 1 - Getting started/1.4 Hands-on: Projeto 1.md'
+
+  - 2ª Fase:
+    - 'Getting started': Fase 2 - Integração de dados/README.md
+    - '2.1 Airbyte': Fase 2 - Integração de dados/2.1 Airbyte.md
+    - '2.2 Octavia': Fase 2 - Integração de dados/2.2 Octavia.md
+    - '2.3 Hands-on: Projeto 2': 'Fase 2 - Integração de dados/2.3 Hands-on: Projeto 2.md'
+
+  - 3ª Fase: 
+    - 'Getting started': Fase 3 - Infraestrutura como código (IaC)/README.md
+    - '3.1 Terraform': Fase 3 - Infraestrutura como código (IaC)/3.1 Terraform.md
+    - '3.2 Hands-on: Projeto 3': 'Fase 3 - Infraestrutura como código (IaC)/3.2 Hands-on: Projeto 3.md'
+
+  - 4ª Fase: 
+    - 'Getting started': Fase 4 - Orquestração de pipelines/README.md
+    - '4.1 Apache Airflow': Fase 4 - Orquestração de pipelines/4.1 Airflow.md
+    - '4.2 4.2 Hands-on: Projeto 4': 'Fase 4 - Orquestração de pipelines/4.2 Hands-on: Projeto 4.md'
+
+  - 5ª Fase:
+    - 'Getting started': 'Fase 5 - Engine de processamento distribuído/README.md'
+    - '5.1 Spark': 'Fase 5 - Engine de processamento distribuído/5.1 Spark.md'
+    - '5.2 PySpark': 'Fase 5 - Engine de processamento distribuído/5.2 PySpark.md'
+    - '5.3 Hands-on: Projeto 5': 'Fase 5 - Engine de processamento distribuído/5.3 Hands-on: Projeto 5.md'
+
+  - Quem Somos:
+    - 'Cognitivo.ai': 'About/cognitivo.md'
+    - 'Devs.ai': 'About/devs.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+extra:
+  footer: '© 2025 Cognitivo.ai. All rights reserved.'
