@@ -16,7 +16,6 @@ theme:
 
 plugins:
   - search
-  - gh-deploy
 
 nav:
   - Visão Geral: index.md
