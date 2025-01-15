@@ -1,0 +1,1710 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Trilha Oficial de Engenharia">
+      
+      
+        <meta name="author" content="Cognitivo.ai">
+      
+      
+        <link rel="canonical" href="https://cognitivo.github.io/trilha-oficial-engenharia/About/cognitivo/">
+      
+      
+        <link rel="prev" href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/5.3%20Hands-on%3A%20Projeto%205/">
+      
+      
+        <link rel="next" href="../devs/">
+      
+      
+      <link rel="icon" href="../../image/icon_cog.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Cognitivo.ai - Trilha de Engenharia - Cognitivo.ai</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cultura-valores-da-cognitivoai" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Trilha de Engenharia - Cognitivo.ai" class="md-header__button md-logo" aria-label="Trilha de Engenharia - Cognitivo.ai" data-md-component="logo">
+      
+  <img src="../../image/logo_cog.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Trilha de Engenharia - Cognitivo.ai
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cognitivo.ai
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cognitivo/trilha-oficial-engenharia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Visão Geral
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fase%201%20-%20Getting%20started/" class="md-tabs__link">
+          
+  
+  1ª Fase
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fase%202%20-%20Integra%C3%A7%C3%A3o%20de%20dados/" class="md-tabs__link">
+          
+  
+  2ª Fase
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fase%203%20-%20Infraestrutura%20como%20c%C3%B3digo%20%28IaC%29/" class="md-tabs__link">
+          
+  
+  3ª Fase
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fase%204%20-%20Orquestra%C3%A7%C3%A3o%20de%20pipelines/" class="md-tabs__link">
+          
+  
+  4ª Fase
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/" class="md-tabs__link">
+          
+  
+  5ª Fase
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Quem Somos
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Trilha de Engenharia - Cognitivo.ai" class="md-nav__button md-logo" aria-label="Trilha de Engenharia - Cognitivo.ai" data-md-component="logo">
+      
+  <img src="../../image/logo_cog.png" alt="logo">
+
+    </a>
+    Trilha de Engenharia - Cognitivo.ai
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cognitivo/trilha-oficial-engenharia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1ª Fase
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            1ª Fase
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%201%20-%20Getting%20started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%201%20-%20Getting%20started/1.1%20Engenharia%20de%20Dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.1 Engenharia de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%201%20-%20Getting%20started/1.2%20Cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.2 Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%201%20-%20Getting%20started/1.3%20Amazon%20Web%20Services%20%28AWS%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.3 Amazon Web Services
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%201%20-%20Getting%20started/1.4%20Hands-on%3A%20Projeto%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.4 Hands-on: Projeto 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2ª Fase
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            2ª Fase
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%202%20-%20Integra%C3%A7%C3%A3o%20de%20dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%202%20-%20Integra%C3%A7%C3%A3o%20de%20dados/2.1%20Airbyte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1 Airbyte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%202%20-%20Integra%C3%A7%C3%A3o%20de%20dados/2.2%20Octavia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2 Octavia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%202%20-%20Integra%C3%A7%C3%A3o%20de%20dados/2.3%20Hands-on%3A%20Projeto%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3 Hands-on: Projeto 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3ª Fase
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            3ª Fase
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%203%20-%20Infraestrutura%20como%20c%C3%B3digo%20%28IaC%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%203%20-%20Infraestrutura%20como%20c%C3%B3digo%20%28IaC%29/3.1%20Terraform/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.1 Terraform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%203%20-%20Infraestrutura%20como%20c%C3%B3digo%20%28IaC%29/3.2%20Hands-on%3A%20Projeto%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.2 Hands-on: Projeto 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4ª Fase
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            4ª Fase
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%204%20-%20Orquestra%C3%A7%C3%A3o%20de%20pipelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%204%20-%20Orquestra%C3%A7%C3%A3o%20de%20pipelines/4.1%20Airflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.1 Apache Airflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%204%20-%20Orquestra%C3%A7%C3%A3o%20de%20pipelines/4.2%20Hands-on%3A%20Projeto%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.2 4.2 Hands-on: Projeto 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    5ª Fase
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            5ª Fase
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/5.1%20Spark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.1 Spark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/5.2%20PySpark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.2 PySpark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fase%205%20-%20Engine%20de%20processamento%20distribu%C3%ADdo/5.3%20Hands-on%3A%20Projeto%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.3 Hands-on: Projeto 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Quem Somos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Quem Somos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cognitivo.ai
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Cognitivo.ai
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#capacidade-de-mediacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capacidade de Mediação ⚖️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foco-no-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Foco no Resultado 🎯
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Foco no Resultado 🎯">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-foco-no-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que foco no resultado?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confianca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiança 🤝
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Confiança 🤝">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-confianca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que confiança?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protagonismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protagonismo 💪
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protagonismo 💪">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-protagonismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que Protagonismo?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colaboracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboração 🤝
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Colaboração 🤝">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-colaboracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que Colaboração?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conhecimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conhecimento 📚
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conhecimento 📚">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-conhecimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que conhecimento?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simplicidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simplicidade 🧩
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Simplicidade 🧩">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-a-simplicidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que a simplicidade?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Devs.ai
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#capacidade-de-mediacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capacidade de Mediação ⚖️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foco-no-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Foco no Resultado 🎯
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Foco no Resultado 🎯">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-foco-no-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que foco no resultado?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confianca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiança 🤝
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Confiança 🤝">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-confianca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que confiança?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protagonismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protagonismo 💪
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protagonismo 💪">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-protagonismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que Protagonismo?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colaboracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboração 🤝
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Colaboração 🤝">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-colaboracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que Colaboração?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conhecimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conhecimento 📚
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conhecimento 📚">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-conhecimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que conhecimento?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simplicidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simplicidade 🧩
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Simplicidade 🧩">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-a-simplicidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que a simplicidade?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-esse-valor-significa-na-pratica_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que esse valor significa na prática?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="cultura-valores-da-cognitivoai">Cultura &amp; Valores da Cognitivo.ai 🚀<a class="headerlink" href="#cultura-valores-da-cognitivoai" title="Permanent link">&para;</a></h1>
+<h2 id="capacidade-de-mediacao">Capacidade de Mediação ⚖️<a class="headerlink" href="#capacidade-de-mediacao" title="Permanent link">&para;</a></h2>
+<p>Fazemos sempre o que for melhor para os <strong>clientes</strong> (empresas e experts). Buscamos o equilíbrio constante entre as vontades e necessidades desses dois personagens. Esse equilíbrio nos faz acelerar as iniciativas de ambos os lados, aproximando o Brasil da nossa principal missão.</p>
+<h2 id="foco-no-resultado">Foco no Resultado 🎯<a class="headerlink" href="#foco-no-resultado" title="Permanent link">&para;</a></h2>
+<p>Temos obsessão por resultados, esse é o nosso drive.</p>
+<h3 id="por-que-foco-no-resultado">Por que foco no resultado?<a class="headerlink" href="#por-que-foco-no-resultado" title="Permanent link">&para;</a></h3>
+<p>Nada substitui o lucro real. É a única forma de gerar perpetuidade. O foco no resultado representa o nosso pragmatismo que tem garantido a sobrevivência da empresa até aqui.</p>
+<h3 id="o-que-esse-valor-significa-na-pratica">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica" title="Permanent link">&para;</a></h3>
+<p>Significa ser objetivo e prático.</p>
+<h2 id="confianca">Confiança 🤝<a class="headerlink" href="#confianca" title="Permanent link">&para;</a></h2>
+<p>Somos extremamente confiáveis, isso é o que nos une.</p>
+<h3 id="por-que-confianca">Por que confiança?<a class="headerlink" href="#por-que-confianca" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Acreditamos que a moeda de troca mais importante em um relacionamento é a confiança.</li>
+<li>Entendemos que a confiança permite que cada um admita a própria vulnerabilidade e se sinta à vontade sendo si mesmo.</li>
+</ul>
+<h3 id="o-que-esse-valor-significa-na-pratica_1">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Tratar os outros com respeito, independente do contexto.</li>
+<li>Ser honesto e transparente nas interações.</li>
+<li>Não ter medo de se mostrar vulnerável.</li>
+<li>Dar feedbacks sinceros e construtivos.</li>
+<li>Alinhar muito bem as expectativas.</li>
+</ul>
+<h2 id="protagonismo">Protagonismo 💪<a class="headerlink" href="#protagonismo" title="Permanent link">&para;</a></h2>
+<p>Somos sempre parte dos problemas e parte das soluções. Constatar que temos o problema não é suficiente, é preciso ir lá e resolver. O protagonismo é o que nos diferencia.</p>
+<h3 id="por-que-protagonismo">Por que Protagonismo?<a class="headerlink" href="#por-que-protagonismo" title="Permanent link">&para;</a></h3>
+<p>Desde o início da <strong>Cognitivo</strong>, percebemos que um fator importante para o sucesso era assumir a postura de protagonista ativamente. Somos sempre parte do problema e parte da solução. Se identificarmos um problema, vamos sugerir uma solução, mobilizar pessoas importantes e resolver.</p>
+<h3 id="o-que-esse-valor-significa-na-pratica_2">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Significa ser proativo e se antecipar diante de situações e possíveis problemas.</li>
+<li>Significa assumir a responsabilidade e não culpar outros por falhas.</li>
+<li>Significa fazer o que precisa ser feito em prol da prosperidade do todo.</li>
+</ul>
+<h2 id="colaboracao">Colaboração 🤝<a class="headerlink" href="#colaboracao" title="Permanent link">&para;</a></h2>
+<p>Trabalhamos juntos para alcançar os objetivos, a nossa evolução depende disso.</p>
+<h3 id="por-que-colaboracao">Por que Colaboração?<a class="headerlink" href="#por-que-colaboracao" title="Permanent link">&para;</a></h3>
+<p>A colaboração é uma tendência natural humana e é fundamental, especialmente na hora de resolver problemas complexos que requerem múltiplas competências. Nosso objetivo de tornar o Brasil um país referência em dados e inteligência artificial só pode ser alcançado com trabalho conjunto.</p>
+<h3 id="o-que-esse-valor-significa-na-pratica_3">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Trabalhar de forma conjunta para resolver problemas complexos.</li>
+<li>Ajudar no crescimento e evolução da equipe como um todo.</li>
+</ul>
+<h2 id="conhecimento">Conhecimento 📚<a class="headerlink" href="#conhecimento" title="Permanent link">&para;</a></h2>
+<p>Somos apaixonados por conhecimento, essa é a nossa base e é o que nos prepara para o amanhã.</p>
+<h3 id="por-que-conhecimento">Por que conhecimento?<a class="headerlink" href="#por-que-conhecimento" title="Permanent link">&para;</a></h3>
+<p>Desde o início da <strong>Cognitivo</strong>, valorizamos o conhecimento. Sempre estivemos dispostos a ouvir, perguntar, investigar, estudar. Tudo isso por reconhecermos e não aceitarmos a ignorância. Não reinventamos a roda aqui, buscamos sempre aprender com o que já foi feito.</p>
+<h3 id="o-que-esse-valor-significa-na-pratica_4">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Buscar conhecimento dentro e fora da <strong>Cognitivo</strong>.</li>
+<li>Compartilhar aprendizados com as outras pessoas de dentro e de fora da equipe.</li>
+<li>Lembrar constantemente que não sabemos de tudo, por mais experiência que tenhamos sobre um determinado assunto.</li>
+</ul>
+<h2 id="simplicidade">Simplicidade 🧩<a class="headerlink" href="#simplicidade" title="Permanent link">&para;</a></h2>
+<p>Somos humildes, vamos direto ao ponto, reconhecemos os nossos erros, consertamos rápido, aqui não é preciso fazer o gol “de letra", só o gol. Precisamos ser rápidos para vencer.</p>
+<h3 id="por-que-a-simplicidade">Por que a simplicidade?<a class="headerlink" href="#por-que-a-simplicidade" title="Permanent link">&para;</a></h3>
+<p>É o caminho mais rápido.</p>
+<h3 id="o-que-esse-valor-significa-na-pratica_5">O que esse valor significa na prática?<a class="headerlink" href="#o-que-esse-valor-significa-na-pratica_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Não reinventar a roda.</li>
+<li>Pensar sempre em soluções simples para os problemas.</li>
+<li>Não ter apego: se tiver que jogar tudo fora e começar novamente, faremos isso, desde que consigamos chegar mais rápido.</li>
+<li>Eliminar qualquer coisa que gera burocracia.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
