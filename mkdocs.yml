@@ -1,6 +1,9 @@
 site_name: 'Trilha de Engenharia - Cognitivo.ai'
 site_description: 'Trilha Oficial de Engenharia'
 site_author: 'Cognitivo.ai'
+site_url: https://cognitivo.github.io/trilha-oficial-engenharia
+repo_url: https://github.com/cognitivo/trilha-oficial-engenharia
+docs_dir: docs
 theme:
   name: 'material'
   logo: 'image/logo_cog.png'
@@ -10,6 +13,10 @@ theme:
 
   features:
     - navigation.tabs
+
+plugins:
+  - search
+  - gh-deploy
 
 nav:
   - Visão Geral: index.md
