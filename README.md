@@ -68,7 +68,7 @@ Esta trilha está organizada em **fases**, e cada uma aborda um conjunto de conc
     - Não se apresse em finalizar todos os projetos, o mais importante aqui é que você construa uma forte base em fundamentos e massa crítica para resolver problemas.
 
 7. **Guia de desenvolvimento**
-    - A Cognitivo conta com um [guia de desenvolvimento](https://docs.google.com/document/d/1PSEU69_Up9QzNAfO7sw3FGzqXMhFyYMqwXSeK_AFzDI/edit?usp=sharing). Nesse momento, se atente principalmente ao padrão de commits, consulte o guia para realizar os seus e já se acostumar com certa padronização.
+    - A Cognitivo conta com um [guia de desenvolvimento](https://docs.google.com/document/d/1v3EIRrgbjEmJoxYZh4TcMdmbeStf8r9Zuf1tQvVphjI/edit?usp=sharing). Nesse momento, se atente principalmente ao padrão de commits, consulte o guia para realizar os seus e já se acostumar com certa padronização.
 
 ---
 
