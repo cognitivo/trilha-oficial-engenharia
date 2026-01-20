@@ -39,8 +39,10 @@ nav:
 
   - 4ª Fase: 
     - 'Getting started': Fase 4 - Orquestração de pipelines/README.md
-    - '4.1 Apache Airflow': Fase 4 - Orquestração de pipelines/4.1 Airflow.md
-    - '4.2 4.2 Hands-on: Projeto 4': 'Fase 4 - Orquestração de pipelines/4.2 Hands-on: Projeto 4.md'
+    - '4.1 SQL': Fase 4 - Orquestração de pipelines/4.1 SQL.md
+    - '4.2 DBT (Data Build Tool)': Fase 4 - Orquestração de pipelines/4.2 DBT (Data Build Tool).md
+    - '4.3 Apache Airflow': Fase 4 - Orquestração de pipelines/4.3 Apache Airflow.md
+    - '4.4 Hands-on: Projeto 4': 'Fase 4 - Orquestração de pipelines/4.4 Hands-on: Projeto 4.md'
 
   - 5ª Fase:
     - 'Getting started': 'Fase 5 - Engine de processamento distribuído/README.md'
