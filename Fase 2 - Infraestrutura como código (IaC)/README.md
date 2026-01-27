@@ -1,6 +1,6 @@
 # Comece por Aqui 🚀
 
-## Bem-vindo(a) à Fase 3 da Trilha de Engenharia de Dados da Cognitivo! 🎉
+## Bem-vindo(a) à Fase 2 da Trilha de Engenharia de Dados da Cognitivo! 🎉
 
 Nesta etapa, você será introduzido(a) aos fundamentos de **Infraestrutura como Código (IaC)**, um dos pilares mais importantes para gerenciar ambientes de dados modernos de forma eficiente, automatizada e escalável. ⚙️
 
