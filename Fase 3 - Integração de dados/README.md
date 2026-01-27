@@ -1,6 +1,6 @@
 # Comece por Aqui 🚀
 
-## Bem-vindo(a) à Fase 2 da Trilha de Engenharia de Dados da Cognitivo! 🎓
+## Bem-vindo(a) à Fase 3 da Trilha de Engenharia de Dados da Cognitivo! 🎓
 
 Esta etapa foi projetada para aprofundar seus conhecimentos em **integração de dados**, uma das habilidades mais importantes para engenheiros de dados no mercado atual, utilizando uma das ferramentas da conhecida Modern Data Stack, o **Airbyte**. 💡
 
