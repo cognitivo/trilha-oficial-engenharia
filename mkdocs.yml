@@ -27,15 +27,16 @@ nav:
     - '1.4 Hands-on: Projeto 1': 'Fase 1 - Getting started/1.4 Hands-on: Projeto 1.md'
 
   - 2ª Fase:
-    - 'Getting started': Fase 2 - Integração de dados/README.md
-    - '2.1 Airbyte': Fase 2 - Integração de dados/2.1 Airbyte.md
-    - '2.2 Octavia': Fase 2 - Integração de dados/2.2 Octavia.md
-    - '2.3 Hands-on: Projeto 2': 'Fase 2 - Integração de dados/2.3 Hands-on: Projeto 2.md'
+    - 'Getting started': Fase 2 - Infraestrutura como código (IaC)/README.md
+    - '2.1 Terraform': Fase 2 - Infraestrutura como código (IaC)/2.1 Terraform.md
+    - '2.2 Docker': Fase 2 - Infraestrutura como código (IaC)/2.2 Docker.md
+    - '2.3 Hands-on: Projeto 2': 'Fase 2 - Infraestrutura como código (IaC)/2.3 Hands-on.md'
 
   - 3ª Fase: 
-    - 'Getting started': Fase 3 - Infraestrutura como código (IaC)/README.md
-    - '3.1 Terraform': Fase 3 - Infraestrutura como código (IaC)/3.1 Terraform.md
-    - '3.2 Hands-on: Projeto 3': 'Fase 3 - Infraestrutura como código (IaC)/3.2 Hands-on: Projeto 3.md'
+    - 'Getting started': Fase 3 - Integração de dados/README.md
+    - '3.1 Airbyte': Fase 3 - Integração de dados/3.1 Airbyte.md
+    - '3.2 Terraform Provider do Airbyte': Fase 3 - Integração de dados/3.2 Terraform Provider do Airbyte.md
+    - '3.3 Hands-on: Projeto 3': 'Fase 3 - Integração de dados/3.3 Hands-on.md'
 
   - 4ª Fase: 
     - 'Getting started': Fase 4 - Orquestração de pipelines/README.md
