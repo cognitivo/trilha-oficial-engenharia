@@ -16,10 +16,3 @@ Engenheiro de Dados da **Categoria de Base** da **Cognitivo.ai**, expertise em *
 
 ---
 
-## Gabriel Bello 👨‍💻
-Engenheiro de Dados da **Categoria de Base** da **Cognitivo.ai**, com especializado em **Infraestrutura como Código (IaC)** e **AWS**. Focado na criação e gerenciamento de ambientes de dados escaláveis.
-
-- **Especialidades:** Terraform, AWS, Python
-- **LinkedIn:** [Gabriel Bello](https://www.linkedin.com/in/gabriel-brito-bello/)
-
----
